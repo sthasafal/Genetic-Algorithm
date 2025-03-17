@@ -109,4 +109,18 @@ The genetic algorithm implemented in this experiment comprises the following key
 | Generations     | `100` |
 
 ---
+## Output/Result
+![](https://github.com/sthasafal/Genetic-Algorithm/blob/main/GeneticAlgorithm.png)
+
+## Observations from Graphs: 
+-	Larger population sizes lead to smoother fitness curves with less fluctuation.
+-	Lower mutation rates result in a more gradual and consistent increase in average fitness.
+-	There appears to be an optimal balance between population size and mutation rate for achieving the smoothest upward trend in fitness.
+-	While the fitness curve exhibited some fluctuations, the overall upward trend demonstrated the algorithm's effectiveness in guiding the population towards increasingly better solutions over successive generations.
+-	By comparing the fitness curves created with different settings, we can learn how things like population size and mutation rate change the algorithm's progress
+
+## Conclusion
+Our evolutionary algorithm could develop genomes toward a target of all 'A's. Sufficiently larger populations created more smooth and anticipatable improvement in fitness, corroborating the necessity to maintain genetic diversity. Lower rates of mutation, particularly in the vicinity of 1%, fostered incremental and consistent progress, exemplifying the sensitive balance between exploitation and exploration. Overall, our experiment suggested that genetic algorithms are powerful tools, but precise tuning of parameters like population size and mutation rate is important for optimum results. This research gives useful insights regarding the working of genetic algorithms and how they can be used to solve different kinds of problems.
+
+
 
